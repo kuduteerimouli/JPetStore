@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+  <parameter name="browser" value="edge"></parameter>
+    <classes>
+    
+      <class name="operations_pom.Operation_Register_POM"/>
+      <class name="operations_pom.Operation_Signin_POM"/>
+      <class name="operations_pom.Operation_AddToCart_POM"/>
+      <class name="operations_pom.Operation_UpdateCart_POM"/>
+    </classes> 
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
