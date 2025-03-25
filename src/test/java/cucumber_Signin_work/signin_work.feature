@@ -1,8 +1,13 @@
 Feature: Signin to JPetStore
 
-Scenario: Signin with valid credentials
+Scenario Outline: Signin with different credentials
     Given User navigates to JPetStore login page
-    When User enters username  
-    And User enters password
+    When User enters username "<username>"
+    And User enters password "<password>"
     Then User clicks on login button
-    Then User should be logged in successfully
+    Then User should see "<login_status>"
+
+    Examples:
+      | username         | password         | login_status      |
+      | invalid_username | invalid_password | Login failed      |
+      | rage             | Ruling           | Login successful  |

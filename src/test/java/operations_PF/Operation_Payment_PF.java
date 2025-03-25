@@ -65,6 +65,7 @@ public class Operation_Payment_PF extends ChooseBrowser {
 			// Click on Submit Payment Details
 			test.log(Status.INFO, "Submitting payment details");
 			wait.until(ExpectedConditions.elementToBeClickable(order.getPaymentDetails())).click();
+			System.out.println("");
 			test.log(Status.PASS, "Payment details submitted successfully");
 
 		} catch (Exception e) {

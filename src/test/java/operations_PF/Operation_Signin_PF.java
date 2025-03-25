@@ -31,6 +31,7 @@ public class Operation_Signin_PF extends ChooseBrowser
 	
 		ExtentReports_1.createTest("Signin Completed").log(Status.PASS, "Navigated to home page after Signin.");
 
+		System.out.println("Sign-in Done");
 		ExtentReports_1.getInstance().flush();
 		
 		

@@ -6,6 +6,8 @@ import java.io.IOException;
 import java.time.Duration;
 import java.util.Properties;
 
+import org.apache.poi.xssf.usermodel.XSSFSheet;
+import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
@@ -88,16 +90,6 @@ public class ChooseBrowser
 		state=pro.getProperty("state");
 		pincode=pro.getProperty("pincode");
 		country=pro.getProperty("country");
-		
-		//Shipping data
-		ship_Fname=pro.getProperty("Sfname");
-		ship_Lname=pro.getProperty("Slname");
-		ship_add1=pro.getProperty("Sadd1");
-		ship_add2=pro.getProperty("Sadd2");
-		ship_city=pro.getProperty("Scity");
-		ship_state=pro.getProperty("Sstate");
-		ship_zip=pro.getProperty("Szip");
-		ship_country=pro.getProperty("SCountry");
 		}
 		catch(Exception e)
 		{
@@ -105,6 +97,23 @@ public class ChooseBrowser
 		}
 	}
 	
+	public static void ExcelData() throws IOException
+	{
+		FileInputStream excel=new FileInputStream("C:\\Users\\mouli\\eclipse-workspace\\CapstonProject\\src\\main\\java\\base_Works\\Shipping_Details.xlsx");
+		XSSFWorkbook workbook=new XSSFWorkbook(excel);
+		XSSFSheet sheet=workbook.getSheet("Shipping");
+		ship_Fname=sheet.getRow(1).getCell(0).getStringCellValue();
+		ship_Lname=sheet.getRow(1).getCell(1).getStringCellValue();
+		ship_add1=sheet.getRow(1).getCell(2).getStringCellValue();
+		ship_add2=sheet.getRow(1).getCell(3).getStringCellValue();
+		ship_city=sheet.getRow(1).getCell(4).getStringCellValue();
+		ship_state=sheet.getRow(1).getCell(5).getStringCellValue();
+		ship_zip=sheet.getRow(1).getCell(6).getStringCellValue();
+		ship_country=sheet.getRow(1).getCell(7).getStringCellValue();
+		
+		// Close workbook and input stream
+	    
+	}
 	
 	// Explicit Wait Utility
     public static void waitForElementToBeClickable(WebElement element, int timeout) throws Exception {
@@ -127,5 +136,4 @@ public class ChooseBrowser
 			web.quit();
         }
 	}
-
 }

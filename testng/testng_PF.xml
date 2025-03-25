@@ -2,11 +2,11 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Suite">
   <test thread-count="5" name="Test">
-  <parameter name="browser" value="chrome"></parameter>
+  <parameter name="browser" value="edge"></parameter>
     <classes>
     
      <class name="operations_pom.Operation_Register_POM"/> 
-     <class name="cucumber_Signin_work.Signin_Runner"/> 
+     <class name="cucumber_Signin_work.Signin_Runner"/>
      <class name="operations_PF.Operation_AddToCart_PF"/>
      <class name="operations_PF.Operation_UpdateCart_PF"/>
      <class name="operations_PF.Operation_Payment_PF"/>

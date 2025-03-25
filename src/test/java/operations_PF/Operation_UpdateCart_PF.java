@@ -60,6 +60,7 @@ public class Operation_UpdateCart_PF extends ChooseBrowser {
 			WebElement checkoutBtn = wait.until(ExpectedConditions.elementToBeClickable(update.getCheckout()));
 			checkoutBtn.click();
 
+			System.out.println("Update Cart is done.");
 			// Wait for checkout page transition
 			Thread.sleep(2000);
 			String currentUrl = web.getCurrentUrl();

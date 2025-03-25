@@ -22,7 +22,8 @@ public class Operation_Shipping_PF extends ChooseBrowser
     ExtentTest test;
     
     @BeforeMethod
-    public void setup() {
+    public void setup() throws IOException {
+    	ExcelData();
         extent = ExtentReports_1.getInstance();
         test = ExtentReports_1.createTest("Shipping Details Test");
     }
@@ -53,6 +54,16 @@ public class Operation_Shipping_PF extends ChooseBrowser
 		shipping.getShipping_Zip().sendKeys(ship_zip);
 		shipping.getShipping_Country().clear();
 		shipping.getShipping_Country().sendKeys(ship_country);
+		
+		System.out.println("First Name: " + ship_Fname);
+		System.out.println("Last Name: " + ship_Lname);
+		System.out.println("Address 1: " + ship_add1);
+		System.out.println("Address 2: " + ship_add2);
+		System.out.println("City: " + ship_city);
+		System.out.println("State: " + ship_state);
+		System.out.println("Zip: " + ship_zip);
+		System.out.println("Country: " + ship_country);
+
 		
 		screenShot("Shipping Details Page");
 		test.log(Status.INFO, "Screenshot is taken after Shipping details entered.");

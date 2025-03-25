@@ -59,7 +59,7 @@ public class Operation_AddToCart_PF extends ChooseBrowser
 		addtocart.getAdd().click();
 		test.log(Status.INFO, "Adding pet to cart");
 		test.log(Status.PASS, "All items successfully added to cart!");
-		
+		System.out.println("Add to cart is done.");
 		screenShot("Add To Cart Page");
 		test.log(Status.INFO, "Screenshot captured after adding items to cart.");
 		ExtentReports_1.flushReports();

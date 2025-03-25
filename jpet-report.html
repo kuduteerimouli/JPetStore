@@ -35,7 +35,7 @@
 <a href="#"><span class="badge badge-primary"></span></a>
 </li>
 <li class="m-r-10">
-<a href="#"><span class="badge badge-primary">Mar 22, 2025 09:18:53 AM</span></a>
+<a href="#"><span class="badge badge-primary">Mar 25, 2025 10:36:37 AM</span></a>
 </li>
 </ul>
 </div>
@@ -67,6 +67,7 @@
 <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
 <ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
 <a class="dropdown-item" status="pass" href="#"><span>Pass</span><span class="status success"></span></a>
+<a class="dropdown-item" status="fail" href="#"><span>Fail</span><span class="status danger"></span></a>
 <div class="dropdown-divider"></div>
 <a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
 </ul>
@@ -74,25 +75,25 @@
 </ul>
 </div>    <div class="test-list-wrapper scrollable">
       <ul class="test-list-item">
-        <li class="test-item"  status="pass" test-id="1"
+        <li class="test-item"  status="fail" test-id="1"
           author=""
           tag=""
           device="">
           <div class="test-detail">
             <p class="name">User Registration Test</p>
             <p class="text-sm">
-              <span>9:18:53 AM</span> / <span>00:00:08:541</span>
-              <span class="badge pass-bg log float-right">Pass</span>
+              <span>10:36:37 AM</span> / <span>00:00:02:633</span>
+              <span class="badge fail-bg log float-right">Fail</span>
             </p>
           </div>
           <div class="test-contents d-none">
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-pass">User Registration Test</h5>
-<span class='badge badge-success'>03.22.2025 9:18:53 AM</span>
-<span class='badge badge-danger'>03.22.2025 9:19:01 AM</span>
-<span class='badge badge-default'>00:00:08:541</span>
+<h5 class="test-status text-fail">User Registration Test</h5>
+<span class='badge badge-success'>03.25.2025 10:36:37 AM</span>
+<span class='badge badge-danger'>03.25.2025 10:36:40 AM</span>
+<span class='badge badge-default'>00:00:02:633</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
 <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
 <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
@@ -104,52 +105,17 @@
   <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
   <tbody>
       <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>9:18:59 AM</td>
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>10:36:40 AM</td>
         <td>
-          Browser launched: chrome
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>9:19:00 AM</td>
-        <td>
-          Navigated to Registration Page
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>9:19:00 AM</td>
-        <td>
-          User information entered succesfully.
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>9:19:01 AM</td>
-        <td>
-          personal information entered successfully.
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>9:19:01 AM</td>
-        <td>
-          screenshot captured before form submission.
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>9:19:01 AM</td>
-        <td>
-          Registration form submitted successfully.
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>9:19:01 AM</td>
-        <td>
-          Navigated to Sign in page after Registration.
+          Test failed due to: Could not start a new session. Response code 500. Message: session not created: Microsoft Edge failed to start: crashed.
+  (session not created: DevToolsActivePort file doesn't exist)
+  (The process started from msedge location C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe is no longer running, so msedgedriver is assuming that msedge has crashed.) 
+Host info: host: 'DESKTOP-24QMINE', ip: '192.168.0.100'
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [], binary: C:\Program Files (x86)\Micr..., extensions: []}}]}]
         </td>
       </tr>
   </tbody>
@@ -157,25 +123,25 @@
 </div>
           </div>
         </li>
-        <li class="test-item"  status="pass" test-id="2"
+        <li class="test-item"  status="fail" test-id="2"
           author=""
           tag=""
           device="">
           <div class="test-detail">
             <p class="name">User Sign-in Test</p>
             <p class="text-sm">
-              <span>9:19:02 AM</span> / <span>00:00:02:026</span>
-              <span class="badge pass-bg log float-right">Pass</span>
+              <span>10:36:50 AM</span> / <span>00:00:11:768</span>
+              <span class="badge fail-bg log float-right">Fail</span>
             </p>
           </div>
           <div class="test-contents d-none">
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-pass">User Sign-in Test</h5>
-<span class='badge badge-success'>03.22.2025 9:19:02 AM</span>
-<span class='badge badge-danger'>03.22.2025 9:19:04 AM</span>
-<span class='badge badge-default'>00:00:02:026</span>
+<h5 class="test-status text-fail">User Sign-in Test</h5>
+<span class='badge badge-success'>03.25.2025 10:36:50 AM</span>
+<span class='badge badge-danger'>03.25.2025 10:37:02 AM</span>
+<span class='badge badge-default'>00:00:11:768</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=2</span>
 <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
 <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
@@ -188,44 +154,35 @@
   <tbody>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>9:19:02 AM</td>
+        <td>10:36:51 AM</td>
         <td>
           Navigated to JPetStore login page
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>9:19:02 AM</td>
-        <td>
-          Entered username: Ruler
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>9:19:03 AM</td>
-        <td>
-          Entered password
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>9:19:03 AM</td>
+        <td>10:36:51 AM</td>
         <td>
           Screenshot taken before login
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>9:19:03 AM</td>
+        <td>10:36:52 AM</td>
         <td>
           Clicked on login button
         </td>
       </tr>
       <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>9:19:04 AM</td>
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>10:37:02 AM</td>
         <td>
-          User logged in successfully
+          Login failed unexpectedly: Expected condition failed: waiting for url to contain "actions/Catalog.action". Current url: "https://petstore.octoperf.com/actions/Account.action;jsessionid=E266B03F06A4B91218C7EB9DA174FBCC" (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.166, chrome: {chromedriverVersion: 134.0.6998.165 (fd886e2cb29..., userDataDir: C:\WINDOWS\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53458}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53458/devtoo..., se:cdpVersion: 134.0.6998.166, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 818e46d679e8de40322f558a6f0f3790
         </td>
       </tr>
   </tbody>
@@ -238,9 +195,9 @@
           tag=""
           device="">
           <div class="test-detail">
-            <p class="name">Add to Cart Test</p>
+            <p class="name">User Sign-in Test</p>
             <p class="text-sm">
-              <span>9:19:04 AM</span> / <span>00:00:10:342</span>
+              <span>10:37:03 AM</span> / <span>00:00:04:468</span>
               <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
@@ -248,10 +205,10 @@
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-pass">Add to Cart Test</h5>
-<span class='badge badge-success'>03.22.2025 9:19:04 AM</span>
-<span class='badge badge-danger'>03.22.2025 9:19:14 AM</span>
-<span class='badge badge-default'>00:00:10:342</span>
+<h5 class="test-status text-pass">User Sign-in Test</h5>
+<span class='badge badge-success'>03.25.2025 10:37:03 AM</span>
+<span class='badge badge-danger'>03.25.2025 10:37:07 AM</span>
+<span class='badge badge-default'>00:00:04:468</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=3</span>
 <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
 <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
@@ -264,65 +221,30 @@
   <tbody>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>9:19:04 AM</td>
+        <td>10:37:04 AM</td>
         <td>
-          Navigated to JPetStore Catalog Page
+          Navigated to JPetStore login page
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>9:19:06 AM</td>
+        <td>10:37:06 AM</td>
         <td>
-          Selecting pet
+          Screenshot taken before login
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>9:19:07 AM</td>
+        <td>10:37:06 AM</td>
         <td>
-          Viewing pet details
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>9:19:09 AM</td>
-        <td>
-          Adding pet to cart
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>9:19:11 AM</td>
-        <td>
-          Selecting pet
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>9:19:13 AM</td>
-        <td>
-          Viewing pet details
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>9:19:14 AM</td>
-        <td>
-          Adding pet to cart
+          Clicked on login button
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>9:19:14 AM</td>
+        <td>10:37:07 AM</td>
         <td>
-          All items successfully added to cart!
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>9:19:14 AM</td>
-        <td>
-          Screenshot captured after adding items to cart.
+          User logged in successfully
         </td>
       </tr>
   </tbody>
@@ -335,9 +257,9 @@
           tag=""
           device="">
           <div class="test-detail">
-            <p class="name">Update Cart Test</p>
+            <p class="name">Add to Cart Test</p>
             <p class="text-sm">
-              <span>9:19:14 AM</span> / <span>00:00:03:217</span>
+              <span>10:37:08 AM</span> / <span>00:00:11:874</span>
               <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
@@ -345,10 +267,10 @@
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-pass">Update Cart Test</h5>
-<span class='badge badge-success'>03.22.2025 9:19:14 AM</span>
-<span class='badge badge-danger'>03.22.2025 9:19:18 AM</span>
-<span class='badge badge-default'>00:00:03:217</span>
+<h5 class="test-status text-pass">Add to Cart Test</h5>
+<span class='badge badge-success'>03.25.2025 10:37:08 AM</span>
+<span class='badge badge-danger'>03.25.2025 10:37:19 AM</span>
+<span class='badge badge-default'>00:00:11:874</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=4</span>
 <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
 <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
@@ -361,65 +283,65 @@
   <tbody>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>9:19:14 AM</td>
+        <td>10:37:08 AM</td>
         <td>
-          Navigated to Cart Page
+          Navigated to JPetStore Catalog Page
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>9:19:14 AM</td>
+        <td>10:37:10 AM</td>
         <td>
-          Updating Chihuahua quantity
+          Selecting pet
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:37:12 AM</td>
+        <td>
+          Viewing pet details
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:37:13 AM</td>
+        <td>
+          Adding pet to cart
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:37:16 AM</td>
+        <td>
+          Selecting pet
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:37:18 AM</td>
+        <td>
+          Viewing pet details
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:37:19 AM</td>
+        <td>
+          Adding pet to cart
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>9:19:15 AM</td>
+        <td>10:37:19 AM</td>
         <td>
-          Chihuahua quantity updated to 5
+          All items successfully added to cart!
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>9:19:15 AM</td>
+        <td>10:37:19 AM</td>
         <td>
-          Clicking Update Cart
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>9:19:15 AM</td>
-        <td>
-          Cart successfully updated with Chihuahua quantity as 5
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>9:19:15 AM</td>
-        <td>
-          Parrot removed from cart
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>9:19:15 AM</td>
-        <td>
-          Screenshot captured after cart update
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>9:19:15 AM</td>
-        <td>
-          Proceeding to Checkout
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>9:19:18 AM</td>
-        <td>
-          Current Page URL: https://petstore.octoperf.com/actions/Order.action?newOrderForm=
+          Screenshot captured after adding items to cart.
         </td>
       </tr>
   </tbody>
@@ -432,9 +354,9 @@
           tag=""
           device="">
           <div class="test-detail">
-            <p class="name">Payment Processing Test</p>
+            <p class="name">Update Cart Test</p>
             <p class="text-sm">
-              <span>9:19:18 AM</span> / <span>00:00:01:075</span>
+              <span>10:37:20 AM</span> / <span>00:00:04:032</span>
               <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
@@ -442,10 +364,10 @@
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-pass">Payment Processing Test</h5>
-<span class='badge badge-success'>03.22.2025 9:19:18 AM</span>
-<span class='badge badge-danger'>03.22.2025 9:19:19 AM</span>
-<span class='badge badge-default'>00:00:01:075</span>
+<h5 class="test-status text-pass">Update Cart Test</h5>
+<span class='badge badge-success'>03.25.2025 10:37:20 AM</span>
+<span class='badge badge-danger'>03.25.2025 10:37:24 AM</span>
+<span class='badge badge-default'>00:00:04:032</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=5</span>
 <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
 <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
@@ -458,86 +380,65 @@
   <tbody>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>9:19:18 AM</td>
+        <td>10:37:20 AM</td>
         <td>
-          Navigated to Payment Page
+          Navigated to Cart Page
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>9:19:18 AM</td>
+        <td>10:37:20 AM</td>
         <td>
-          Selecting payment method: American Express
+          Updating Chihuahua quantity
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>9:19:18 AM</td>
+        <td>10:37:20 AM</td>
         <td>
-          Payment method selected: American Express
+          Chihuahua quantity updated to 5
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>9:19:18 AM</td>
+        <td>10:37:20 AM</td>
         <td>
-          Entering credit card details
+          Clicking Update Cart
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>9:19:18 AM</td>
+        <td>10:37:20 AM</td>
         <td>
-          Credit card entered successfully
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>9:19:18 AM</td>
-        <td>
-          Entering expiry date
+          Cart successfully updated with Chihuahua quantity as 5
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>9:19:18 AM</td>
+        <td>10:37:21 AM</td>
         <td>
-          Expiry date entered successfully
+          Parrot removed from cart
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>9:19:18 AM</td>
+        <td>10:37:21 AM</td>
         <td>
-          Clicking on shipping address checkbox
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>9:19:18 AM</td>
-        <td>
-          Shipping address checkbox selected
+          Screenshot captured after cart update
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>9:19:18 AM</td>
+        <td>10:37:21 AM</td>
         <td>
-          Screenshot captured before submitting payment
+          Proceeding to Checkout
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>9:19:18 AM</td>
+        <td>10:37:24 AM</td>
         <td>
-          Submitting payment details
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>9:19:19 AM</td>
-        <td>
-          Payment details submitted successfully
+          Current Page URL: https://petstore.octoperf.com/actions/Order.action?newOrderForm=
         </td>
       </tr>
   </tbody>
@@ -550,9 +451,9 @@
           tag=""
           device="">
           <div class="test-detail">
-            <p class="name">Shipping Details Test</p>
+            <p class="name">Payment Processing Test</p>
             <p class="text-sm">
-              <span>9:19:19 AM</span> / <span>00:00:02:051</span>
+              <span>10:37:24 AM</span> / <span>00:00:02:172</span>
               <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
@@ -560,10 +461,10 @@
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-pass">Shipping Details Test</h5>
-<span class='badge badge-success'>03.22.2025 9:19:19 AM</span>
-<span class='badge badge-danger'>03.22.2025 9:19:21 AM</span>
-<span class='badge badge-default'>00:00:02:051</span>
+<h5 class="test-status text-pass">Payment Processing Test</h5>
+<span class='badge badge-success'>03.25.2025 10:37:24 AM</span>
+<span class='badge badge-danger'>03.25.2025 10:37:26 AM</span>
+<span class='badge badge-default'>00:00:02:172</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=6</span>
 <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
 <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
@@ -576,23 +477,86 @@
   <tbody>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>9:19:19 AM</td>
+        <td>10:37:24 AM</td>
         <td>
-          Starting Shipping Details Test
+          Navigated to Payment Page
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>9:19:20 AM</td>
+        <td>10:37:24 AM</td>
         <td>
-          Screenshot is taken after Shipping details entered.
+          Selecting payment method: American Express
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>9:19:21 AM</td>
+        <td>10:37:24 AM</td>
         <td>
-          Shipping details entered successfully
+          Payment method selected: American Express
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:37:24 AM</td>
+        <td>
+          Entering credit card details
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:37:25 AM</td>
+        <td>
+          Credit card entered successfully
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:37:25 AM</td>
+        <td>
+          Entering expiry date
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:37:25 AM</td>
+        <td>
+          Expiry date entered successfully
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:37:25 AM</td>
+        <td>
+          Clicking on shipping address checkbox
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:37:25 AM</td>
+        <td>
+          Shipping address checkbox selected
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:37:25 AM</td>
+        <td>
+          Screenshot captured before submitting payment
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:37:25 AM</td>
+        <td>
+          Submitting payment details
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:37:26 AM</td>
+        <td>
+          Payment details submitted successfully
         </td>
       </tr>
   </tbody>
@@ -605,9 +569,9 @@
           tag=""
           device="">
           <div class="test-detail">
-            <p class="name">Order Confirmation Test</p>
+            <p class="name">Shipping Details Test</p>
             <p class="text-sm">
-              <span>9:19:21 AM</span> / <span>00:00:01:580</span>
+              <span>10:37:27 AM</span> / <span>00:00:03:629</span>
               <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
@@ -615,10 +579,10 @@
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-pass">Order Confirmation Test</h5>
-<span class='badge badge-success'>03.22.2025 9:19:21 AM</span>
-<span class='badge badge-danger'>03.22.2025 9:19:22 AM</span>
-<span class='badge badge-default'>00:00:01:580</span>
+<h5 class="test-status text-pass">Shipping Details Test</h5>
+<span class='badge badge-success'>03.25.2025 10:37:27 AM</span>
+<span class='badge badge-danger'>03.25.2025 10:37:31 AM</span>
+<span class='badge badge-default'>00:00:03:629</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=7</span>
 <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
 <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
@@ -631,23 +595,23 @@
   <tbody>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>9:19:21 AM</td>
+        <td>10:37:27 AM</td>
         <td>
-          Navigating to Order Confirmation Page
+          Starting Shipping Details Test
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>9:19:21 AM</td>
+        <td>10:37:29 AM</td>
         <td>
-          Before clicking confirm button
+          Screenshot is taken after Shipping details entered.
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>9:19:22 AM</td>
+        <td>10:37:31 AM</td>
         <td>
-          Order is confirmed successfully!
+          Shipping details entered successfully
         </td>
       </tr>
   </tbody>
@@ -660,9 +624,9 @@
           tag=""
           device="">
           <div class="test-detail">
-            <p class="name">Sign Out Test</p>
+            <p class="name">Order Confirmation Test</p>
             <p class="text-sm">
-              <span>9:19:22 AM</span> / <span>00:00:00:882</span>
+              <span>10:37:31 AM</span> / <span>00:00:00:941</span>
               <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
@@ -670,10 +634,10 @@
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-pass">Sign Out Test</h5>
-<span class='badge badge-success'>03.22.2025 9:19:22 AM</span>
-<span class='badge badge-danger'>03.22.2025 9:19:23 AM</span>
-<span class='badge badge-default'>00:00:00:882</span>
+<h5 class="test-status text-pass">Order Confirmation Test</h5>
+<span class='badge badge-success'>03.25.2025 10:37:31 AM</span>
+<span class='badge badge-danger'>03.25.2025 10:37:32 AM</span>
+<span class='badge badge-default'>00:00:00:941</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=8</span>
 <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
 <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
@@ -686,21 +650,76 @@
   <tbody>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>9:19:22 AM</td>
+        <td>10:37:31 AM</td>
+        <td>
+          Navigating to Order Confirmation Page
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:37:31 AM</td>
+        <td>
+          Before clicking confirm button
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:37:32 AM</td>
+        <td>
+          Order is confirmed successfully!
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="9"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Sign Out Test</p>
+            <p class="text-sm">
+              <span>10:37:32 AM</span> / <span>00:00:01:083</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Sign Out Test</h5>
+<span class='badge badge-success'>03.25.2025 10:37:32 AM</span>
+<span class='badge badge-danger'>03.25.2025 10:37:33 AM</span>
+<span class='badge badge-default'>00:00:01:083</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=9</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:37:32 AM</td>
         <td>
           Navigating to Order Confirmation Page before signing out.
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>9:19:23 AM</td>
+        <td>10:37:32 AM</td>
         <td>
           Before clicking Sign Out button
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>9:19:23 AM</td>
+        <td>10:37:33 AM</td>
         <td>
           Sign-out successful.
         </td>
@@ -724,25 +743,25 @@
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Started</p>
-<h3>Mar 22, 2025 09:18:53 AM</h3>
+<h3>Mar 25, 2025 10:36:37 AM</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Ended</p>
-<h3>Mar 22, 2025 09:19:26 AM</h3>
+<h3>Mar 25, 2025 10:37:35 AM</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0 text-pass">Tests Passed</p>
-<h3>8</h3>
+<h3>7</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0 text-fail">Tests Failed</p>
-<h3>0</h3>
+<h3>2</h3>
 </div></div>
 </div>
 </div>
@@ -758,12 +777,12 @@
 </div>
 </div>
 <div class="card-footer">
-<div><small data-tooltip='100%'>
-<b>8</b> tests passed
+<div><small data-tooltip='77%'>
+<b>7</b> tests passed
 </small>
 </div>
 <div>
-<small data-tooltip='0%'><b>0</b> tests failed,
+<small data-tooltip='22%'><b>2</b> tests failed,
 <b>0</b> skipped, <b data-tooltip='0%'>0</b> others
 </small>
 </div>
@@ -781,10 +800,10 @@
 </div>
 </div>
 <div class="card-footer">
-<div><small data-tooltip='32%'><b>17</b> events passed</small></div>
+<div><small data-tooltip='27%'><b>13</b> events passed</small></div>
 <div>
-<small data-tooltip='0%'><b>0</b> events failed,
-<b data-tooltip='%'>35</b> others
+<small data-tooltip='4%'><b>2</b> events failed,
+<b data-tooltip='%'>33</b> others
 </small>
 </div>
 </div>
@@ -800,7 +819,7 @@
 </div></div>
 <script>
 var timeline = {
-"User Registration Test":8.541,"User Sign-in Test":2.026,"Add to Cart Test":10.342,"Update Cart Test":3.217,"Payment Processing Test":1.075,"Shipping Details Test":2.051,"Order Confirmation Test":1.58,"Sign Out Test":0.882
+"User Registration Test":2.633,"User Sign-in Test":11.768,"User Sign-in Test":4.468,"Add to Cart Test":11.874,"Update Cart Test":4.032,"Payment Processing Test":2.172,"Shipping Details Test":3.629,"Order Confirmation Test":0.941,"Sign Out Test":1.083
 };
 </script>
 <div class="row">
@@ -809,8 +828,8 @@ var timeline = {
 <script>
 var statusGroup = {
 parentCount: 5,
-passParent: 8,
-failParent: 0,
+passParent: 7,
+failParent: 2,
 warningParent: 0,
 skipParent: 0,
 childCount: 5,
@@ -826,11 +845,11 @@ warningGrandChild: 0,
 skipGrandChild: 0,
 infoGrandChild: 0,
 eventsCount: 5,
-passEvents: 17,
-failEvents: 0,
+passEvents: 13,
+failEvents: 2,
 warningEvents: 0,
 skipEvents: 0,
-infoEvents: 35
+infoEvents: 33
 };
 </script>        </div>
       </div>
