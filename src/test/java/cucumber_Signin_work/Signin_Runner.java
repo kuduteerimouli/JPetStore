@@ -5,7 +5,7 @@ import io.cucumber.testng.CucumberOptions;
 
 @CucumberOptions(
 		features = "C:\\Users\\mouli\\eclipse-workspace\\CapstonProject\\src\\test\\java\\cucumber_Signin_work\\signin_work.feature",
-		glue="cucumber_Signin_work", monochrome = true,plugin = {"pretty"}
+		glue="cucumber_Signin_work", monochrome = true,plugin = {"pretty","html:target/cucumber.html"}
 		)
 public class Signin_Runner extends AbstractTestNGCucumberTests{
 
