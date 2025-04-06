@@ -1,0 +1,1 @@
+{"uuid":"3c49241b-8d49-4893-8f3e-87e49ce4f6b6","name":"operations_PF.Operation_AddToCart_PF","children":["cc46bd1b-9b26-40f5-a4c5-73ffb9f8b09a"],"befores":[{"name":"setup","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1742896252571,"stop":1742896252571}],"afters":[],"start":1742896228702,"stop":1742896274916}
