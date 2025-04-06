@@ -90,12 +90,12 @@ public class Stepdef_Signin extends ChooseBrowser {
             boolean isLoginSuccessful = wait.until(ExpectedConditions.urlContains("actions/Catalog.action"));
 
             if (expectedStatus.equals("Login successful")) {
-                Assert.assertTrue(isLoginSuccessful, "Expected login to succeed, but it failed.");
+                Assert.assertTrue(isLoginSuccessful, "Invalid username or password. Signon failed.");
                 screenShot("JPet Home Page");
                 test.log(Status.PASS, "User logged in successfully");
                 System.out.println("Login successful");
             } else {
-                Assert.assertFalse(isLoginSuccessful, "Expected login to fail, but it succeeded.");
+                Assert.assertFalse(isLoginSuccessful, "Invalid username or password. Signon failed.");
                 screenShot("Login Failed Page");
                 test.log(Status.FAIL, "Login failed as expected");
                 System.out.println("Login failed");

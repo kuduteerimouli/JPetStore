@@ -1,5 +1,6 @@
 Feature: Signin to JPetStore
 
+@signin
 Scenario Outline: Signin with different credentials
     Given User navigates to JPetStore login page
     When User enters username "<username>"
