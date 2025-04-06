@@ -1,55 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-03-26T11:25:18 IST" name="Suite" finished-at="2025-03-26T11:25:58 IST" duration-ms="40445">
+  <suite started-at="2025-04-06T19:08:12 IST" name="Suite" finished-at="2025-04-06T19:09:03 IST" duration-ms="50588">
     <groups>
       <group name="cucumber">
-        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber_Signin_work.Signin_Runner@189cbd7c]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber_Signin_work.Signin_Runner@5e21e98f]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test started-at="2025-03-26T11:25:18 IST" name="Test" finished-at="2025-03-26T11:25:58 IST" duration-ms="40445">
+    <test started-at="2025-04-06T19:08:12 IST" name="Test" finished-at="2025-04-06T19:09:03 IST" duration-ms="50588">
       <class name="operations_PF.Operation_Shipping_PF">
-        <test-method is-config="true" signature="setup()[pri:0, instance:operations_PF.Operation_Shipping_PF@44be0077]" started-at="2025-03-26T11:25:52 IST" name="setup" finished-at="2025-03-26T11:25:52 IST" duration-ms="536" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:operations_PF.Operation_Shipping_PF@239105a8]" started-at="2025-04-06T19:08:54 IST" name="setup" finished-at="2025-04-06T19:08:55 IST" duration-ms="979" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="ship_Details()[pri:0, instance:operations_PF.Operation_Shipping_PF@44be0077]" started-at="2025-03-26T11:25:52 IST" name="ship_Details" finished-at="2025-03-26T11:25:54 IST" duration-ms="2001" status="PASS">
+        <test-method signature="ship_Details()[pri:0, instance:operations_PF.Operation_Shipping_PF@239105a8]" started-at="2025-04-06T19:08:55 IST" name="ship_Details" finished-at="2025-04-06T19:08:58 IST" duration-ms="3118" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ship_Details -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:operations_PF.Operation_Shipping_PF@44be0077]" started-at="2025-03-26T11:25:54 IST" name="tearDown" finished-at="2025-03-26T11:25:54 IST" duration-ms="33" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:operations_PF.Operation_Shipping_PF@239105a8]" started-at="2025-04-06T19:08:58 IST" name="tearDown" finished-at="2025-04-06T19:08:58 IST" duration-ms="14" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- operations_PF.Operation_Shipping_PF -->
       <class name="operations_PF.Operation_OrderPlaced_PF">
-        <test-method is-config="true" signature="setup()[pri:0, instance:operations_PF.Operation_OrderPlaced_PF@2205a05d]" started-at="2025-03-26T11:25:54 IST" name="setup" finished-at="2025-03-26T11:25:54 IST" duration-ms="3" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:operations_PF.Operation_OrderPlaced_PF@3fce8fd9]" started-at="2025-04-06T19:08:58 IST" name="setup" finished-at="2025-04-06T19:08:58 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="confirmation()[pri:0, instance:operations_PF.Operation_OrderPlaced_PF@2205a05d]" started-at="2025-03-26T11:25:54 IST" name="confirmation" finished-at="2025-03-26T11:25:55 IST" duration-ms="636" status="PASS">
+        <test-method signature="confirmation()[pri:0, instance:operations_PF.Operation_OrderPlaced_PF@3fce8fd9]" started-at="2025-04-06T19:08:58 IST" name="confirmation" finished-at="2025-04-06T19:08:59 IST" duration-ms="947" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- confirmation -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:operations_PF.Operation_OrderPlaced_PF@2205a05d]" started-at="2025-03-26T11:25:55 IST" name="tearDown" finished-at="2025-03-26T11:25:55 IST" duration-ms="13" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:operations_PF.Operation_OrderPlaced_PF@3fce8fd9]" started-at="2025-04-06T19:08:59 IST" name="tearDown" finished-at="2025-04-06T19:08:59 IST" duration-ms="53" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- operations_PF.Operation_OrderPlaced_PF -->
       <class name="cucumber_Signin_work.Signin_Runner">
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:cucumber_Signin_work.Signin_Runner@189cbd7c]" started-at="2025-03-26T11:25:18 IST" name="setUpClass" finished-at="2025-03-26T11:25:18 IST" duration-ms="449" status="PASS">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:cucumber_Signin_work.Signin_Runner@5e21e98f]" started-at="2025-04-06T19:08:22 IST" name="setUpClass" finished-at="2025-04-06T19:08:22 IST" duration-ms="611" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@70ee9d31]]>
+                <![CDATA[org.testng.TestRunner@a7bbdbc]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber_Signin_work.Signin_Runner@189cbd7c]" started-at="2025-03-26T11:25:18 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-26T11:25:35 IST" duration-ms="17021" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber_Signin_work.Signin_Runner@5e21e98f]" started-at="2025-04-06T19:08:22 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-06T19:08:35 IST" duration-ms="12131" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -65,7 +65,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber_Signin_work.Signin_Runner@189cbd7c]" started-at="2025-03-26T11:25:35 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-26T11:25:37 IST" duration-ms="1652" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber_Signin_work.Signin_Runner@5e21e98f]" started-at="2025-04-06T19:08:35 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-06T19:08:36 IST" duration-ms="1752" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -81,47 +81,64 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:cucumber_Signin_work.Signin_Runner@189cbd7c]" started-at="2025-03-26T11:25:37 IST" name="tearDownClass" finished-at="2025-03-26T11:25:37 IST" duration-ms="15" status="PASS">
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:cucumber_Signin_work.Signin_Runner@5e21e98f]" started-at="2025-04-06T19:08:36 IST" name="tearDownClass" finished-at="2025-04-06T19:08:36 IST" duration-ms="33" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
       </class> <!-- cucumber_Signin_work.Signin_Runner -->
-      <class name="operations_PF.Operation_SignOut_PF">
-        <test-method is-config="true" signature="setup()[pri:0, instance:operations_PF.Operation_SignOut_PF@72ef8d15]" started-at="2025-03-26T11:25:55 IST" name="setup" finished-at="2025-03-26T11:25:55 IST" duration-ms="1" status="PASS">
+      <class name="operations_pom.Operation_Register_POM">
+        <test-method is-config="true" signature="setup()[pri:0, instance:operations_pom.Operation_Register_POM@6aa8e115]" started-at="2025-04-06T19:08:12 IST" name="setup" finished-at="2025-04-06T19:08:12 IST" duration-ms="247" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="signingOut()[pri:0, instance:operations_PF.Operation_SignOut_PF@72ef8d15]" started-at="2025-03-26T11:25:55 IST" name="signingOut" finished-at="2025-03-26T11:25:58 IST" duration-ms="3153" status="PASS">
+        <test-method signature="RegisterRunning(java.lang.String)[pri:0, instance:operations_pom.Operation_Register_POM@6aa8e115]" started-at="2025-04-06T19:08:12 IST" name="RegisterRunning" finished-at="2025-04-06T19:08:22 IST" duration-ms="9339" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- signingOut -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:operations_PF.Operation_SignOut_PF@72ef8d15]" started-at="2025-03-26T11:25:58 IST" name="tearDown" finished-at="2025-03-26T11:25:58 IST" duration-ms="19" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- operations_PF.Operation_SignOut_PF -->
+        </test-method> <!-- RegisterRunning -->
+      </class> <!-- operations_pom.Operation_Register_POM -->
       <class name="operations_PF.Operation_UpdateCart_PF">
-        <test-method signature="Update_Quantity()[pri:0, instance:operations_PF.Operation_UpdateCart_PF@42e25b0b]" started-at="2025-03-26T11:25:47 IST" name="Update_Quantity" finished-at="2025-03-26T11:25:50 IST" duration-ms="3111" status="PASS">
+        <test-method signature="Update_Quantity()[pri:0, instance:operations_PF.Operation_UpdateCart_PF@5f20155b]" started-at="2025-04-06T19:08:48 IST" name="Update_Quantity" finished-at="2025-04-06T19:08:52 IST" duration-ms="3758" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Update_Quantity -->
       </class> <!-- operations_PF.Operation_UpdateCart_PF -->
-      <class name="operations_PF.Operation_AddToCart_PF">
-        <test-method is-config="true" signature="setup()[pri:0, instance:operations_PF.Operation_AddToCart_PF@7bf3a5d8]" started-at="2025-03-26T11:25:37 IST" name="setup" finished-at="2025-03-26T11:25:37 IST" duration-ms="0" status="PASS">
+      <class name="operations_PF.Operation_SignOut_PF">
+        <test-method is-config="true" signature="setup()[pri:0, instance:operations_PF.Operation_SignOut_PF@609bcfb6]" started-at="2025-04-06T19:08:59 IST" name="setup" finished-at="2025-04-06T19:08:59 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="adding()[pri:0, instance:operations_PF.Operation_AddToCart_PF@7bf3a5d8]" started-at="2025-03-26T11:25:37 IST" name="adding" finished-at="2025-03-26T11:25:47 IST" duration-ms="10539" status="PASS">
+        <test-method signature="signingOut()[pri:0, instance:operations_PF.Operation_SignOut_PF@609bcfb6]" started-at="2025-04-06T19:08:59 IST" name="signingOut" finished-at="2025-04-06T19:09:03 IST" duration-ms="3743" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- adding -->
-      </class> <!-- operations_PF.Operation_AddToCart_PF -->
+        </test-method> <!-- signingOut -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:operations_PF.Operation_SignOut_PF@609bcfb6]" started-at="2025-04-06T19:09:03 IST" name="tearDown" finished-at="2025-04-06T19:09:03 IST" duration-ms="23" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- operations_PF.Operation_SignOut_PF -->
       <class name="operations_PF.Operation_Payment_PF">
-        <test-method signature="ordering()[pri:0, instance:operations_PF.Operation_Payment_PF@39b43d60]" started-at="2025-03-26T11:25:50 IST" name="ordering" finished-at="2025-03-26T11:25:52 IST" duration-ms="1112" status="PASS">
+        <test-method signature="ordering()[pri:0, instance:operations_PF.Operation_Payment_PF@72ade7e3]" started-at="2025-04-06T19:08:52 IST" name="ordering" finished-at="2025-04-06T19:08:54 IST" duration-ms="1970" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ordering -->
       </class> <!-- operations_PF.Operation_Payment_PF -->
+      <class name="operations_PF.Operation_AddToCart_PF">
+        <test-method is-config="true" signature="setup()[pri:0, instance:operations_PF.Operation_AddToCart_PF@51a9ad5e]" started-at="2025-04-06T19:08:36 IST" name="setup" finished-at="2025-04-06T19:08:36 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="adding()[pri:0, instance:operations_PF.Operation_AddToCart_PF@51a9ad5e]" started-at="2025-04-06T19:08:36 IST" name="adding" finished-at="2025-04-06T19:08:48 IST" duration-ms="11568" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- adding -->
+      </class> <!-- operations_PF.Operation_AddToCart_PF -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

@@ -11,4 +11,4 @@ Scenario Outline: Signin with different credentials
     Examples:
       | username         | password         | login_status      |
       | invalid_username | invalid_password | Login failed      |
-      | rage             | Ruling           | Login successful  |
+      | rockey             | Ruling           | Login successful  |
